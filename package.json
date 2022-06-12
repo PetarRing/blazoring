@@ -17,5 +17,10 @@
                 "path": "./themes/BlazoRing - Dark-color-theme.json"
             }
         ]
+    },
+    "publisher": "PeterRing",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PetarRing/blazoring"
     }
 }
