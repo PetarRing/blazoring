@@ -2,6 +2,17 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"razorTransition": {
+			"foreground": "#B65FCF",
+			"fontStyle": "bold"
+		},
+		"razorDirective": {
+			"foreground": "#B65FCF",
+			"fontStyle": "bold"
+		},
+		"method": "#F1BB5E",
+	},
 	"colors": {
 		"activityBarBadge.background": "#007acc",
 		"editor.background": "#1e1e1e",
