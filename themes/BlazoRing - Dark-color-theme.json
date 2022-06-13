@@ -1,6 +1,7 @@
 {
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
+	"semanticHighlighting": true,
 	"colors": {
 		"activityBarBadge.background": "#007acc",
 		"editor.background": "#1e1e1e",
@@ -1208,6 +1209,15 @@
 		},
 		{
 			"scope": [
+				"variable.other.object.property.cs"
+			],
+			"settings": {
+				"foreground": "#F1BB5E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
 				"variable.other.readwrite.cs"
 			],
 			"settings": {
@@ -1250,6 +1260,23 @@
 			"settings": {
 				"foreground": "#FFFFFF",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.cs"
+			],
+			"settings": {
+				"foreground": "#F1BB5E",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"keyword.type.cs"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
 			}
 		},
 		{

@@ -2,7 +2,7 @@
     "name": "blazoring",
     "displayName": "BlazoRing",
     "description": "A color theme for developing blazor applications",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -22,5 +22,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/PetarRing/blazoring"
-    }
+    },
+    "csharp.semanticHighlighting.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
+    "aspnetcorerazor.semanticHighlighting.enabled": true,
+    "semanticHighlighting": true
 }
