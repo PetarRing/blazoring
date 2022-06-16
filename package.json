@@ -1,8 +1,8 @@
 {
     "name": "blazoring",
-    "displayName": "BlazoRing",
+    "displayName": "Blazoring",
     "description": "A color theme for developing blazor applications",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "engines": {
         "vscode": "^1.53.0"
     },
@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "BlazoRing - Dark",
+                "label": "BlazoRing (Dark)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/BlazoRing - Dark-color-theme.json"
             }
